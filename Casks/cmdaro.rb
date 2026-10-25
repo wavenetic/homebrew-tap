@@ -1,6 +1,6 @@
 cask "cmdaro" do
-  version "0.8.3"
-  sha256 "8aa2545f4a10e52602f871bb7faf560ff8013c747f48d4542d353a9bc4155e8d"
+  version "0.8.4"
+  sha256 "95824b07c33e5dfa857b66a0d684a93cadc342f042fbe53fa02d6991fb57c631"
 
   url "https://updates.cmdaro.com/download/Cmdaro-#{version}.dmg"
   name "Cmdaro"
