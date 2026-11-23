@@ -1,6 +1,6 @@
 cask "cmdaro" do
-  version "0.9.7"
-  sha256 "3aaa256472db7b2ab981dc0677859f3b715aa0446b955c07f84a97a06f44eac2"
+  version "0.9.8"
+  sha256 "1c7c13221e1c095a7eddc6b99344e4559831f6dd7d0f692b0c22136851be317e"
 
   url "https://updates.cmdaro.com/download/Cmdaro-#{version}.dmg"
   name "Cmdaro"
@@ -22,7 +22,9 @@ cask "cmdaro" do
   uninstall quit: "de.wavenetic.cmdaro"
 
   zap trash: [
+    "~/Library/Application Support/Cmdaro/lists",
     "~/Library/Application Support/Cmdaro/terminal",
+    "~/Library/Application Support/Cmdaro/visits.json",
     "~/Library/Caches/de.wavenetic.cmdaro",
     "~/Library/HTTPStorages/de.wavenetic.cmdaro",
     "~/Library/Preferences/de.wavenetic.cmdaro.plist",
